@@ -1,0 +1,63 @@
+server:
+  port: 9000
+  
+spring:
+  application:
+    name: client-service
+  main:
+     allow-bean-definition-overriding: true
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/clients_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: sql@2019#!
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+      
+keycloak:
+  realm: formation-ms
+  auth-server-url: http://localhost:8080/auth
+  resource: client-app
+  credentials:
+    secret: 5e5abc71-9286-42cd-b1b8-df3c4c283b5b
+  principal-attribute: preferred_username
+  bearer-only: true
+
+swagger-ui:
+  client: swagger-ui
+  secret: 38cc945e-dc12-4e96-af5b-8569d6dc0125
+  
+eureka:
+  client:
+    serviceUrl: 
+      defaultZone: http://localhost:8761/eureka/
+      
+feign:
+  hystrix:
+    enabled: false
+---
+spring: 
+  profiles: cs1
+server:
+  port: 9091
+---
+spring:
+  profiles: test
+  datasource:
+        url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+        username: sa
+        password: sa
+        driver-class-name: org.h2.Driver
+  jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
+        hibernate :
+          ddl-auto: create
+
+    

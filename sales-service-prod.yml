@@ -1,0 +1,27 @@
+server:
+  port: 9001
+  
+spring:
+  application:
+    name: sales-service
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/sales_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: sql@2019#!
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1
+
+eureka:
+  client:
+    serviceUrl: 
+      defaultZone: http://localhost:8761/eureka/
+
+    
