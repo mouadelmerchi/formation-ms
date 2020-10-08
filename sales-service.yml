@@ -24,11 +24,6 @@ eureka:
     serviceUrl: 
       defaultZone: http://localhost:8761/eureka/  
 ---
-spring: 
-  profiles: ss1
-server:
-  port: 9092
----
 spring:
   profiles: test
   datasource:
