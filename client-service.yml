@@ -29,7 +29,7 @@ keycloak:
   bearer-only: true
 
 swagger-ui:
-  client: client-app-swagger-ui
+  client: swagger-ui
   secret: 38cc945e-dc12-4e96-af5b-8569d6dc0125
   
 eureka:

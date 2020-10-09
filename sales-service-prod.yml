@@ -17,20 +17,24 @@ spring:
     sampler:
       probability: 1
 
-#keycloak:
-#  realm: formation-ms
-#  auth-server-url: http://localhost:8080/auth
-#  resource: sales-app
-#  credentials:
-#    secret: 287e769d-abee-45e1-b5db-190be79f08dc
-#  principal-attribute: preferred_username
-#  bearer-only: true
+keycloak:
+  realm: formation-ms
+  auth-server-url: http://localhost:8080/auth
+  resource: sales-app
+  credentials:
+    secret: 287e769d-abee-45e1-b5db-190be79f08dc
+  principal-attribute: preferred_username
+  bearer-only: true
 
-#swagger-ui:
-#  client: sales-app-swagger-ui
-#  secret: aec4fb5a-ff66-46cc-afda-1c74de9405cc
+swagger-ui:
+  client: swagger-ui
+  secret: 38cc945e-dc12-4e96-af5b-8569d6dc0125
 
 eureka:
   client:
     serviceUrl: 
       defaultZone: http://localhost:8761/eureka/
+      
+feign:
+  hystrix:
+    enabled: false
