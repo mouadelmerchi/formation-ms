@@ -1,16 +1,16 @@
 server:
-  port: 9000
+  port: 9002
   
 spring:
-  main:
-     allow-bean-definition-overriding: true
+  application:
+    name: product-service
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: MYSQL
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/clients_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/products_db?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
     username: root
     password: sql@2019#!
   zipkin:
@@ -18,25 +18,21 @@ spring:
   sleuth:
     sampler:
       probability: 1
-      
+
 keycloak:
   realm: formation-ms
   auth-server-url: http://localhost:8080/auth
-  resource: client-app
+  resource: product-app
   credentials:
-    secret: 5e5abc71-9286-42cd-b1b8-df3c4c283b5b
+    secret: c26f6a42-e294-4387-81e3-2aa457949441
   principal-attribute: preferred_username
   bearer-only: true
 
 swagger-ui:
   client: swagger-ui
   secret: 38cc945e-dc12-4e96-af5b-8569d6dc0125
-  
+
 eureka:
   client:
     serviceUrl: 
       defaultZone: http://localhost:8761/eureka/
-      
-feign:
-  hystrix:
-    enabled: false  

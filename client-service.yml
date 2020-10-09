@@ -52,3 +52,7 @@ spring:
         database-platform: org.hibernate.dialect.H2Dialect
         hibernate :
           ddl-auto: create
+
+eureka:
+  client:
+    enabled: false
