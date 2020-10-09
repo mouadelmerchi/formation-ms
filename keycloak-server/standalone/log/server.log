@@ -1,0 +1,532 @@
+2020-10-09 08:20:38,581 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.0.Final
+2020-10-09 08:20:52,741 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2020-10-09 08:20:52,752 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2020-10-09 08:20:52,993 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 10.0.2 (WildFly Core 11.1.1.Final) starting
+2020-10-09 08:20:52,999 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\admin\keycloak-10.0.2\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_261\jre
+	java.io.tmpdir = C:\Users\admin\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_261\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\app\admin\product\11.2.0\client_1;%JAVA_HOME%\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\admin\curl-7.65.1\bin\;C:\Users\admin\webdriver\geckodriver\bin;C:\Users\admin\webdriver\chromedriver\bin;C:\Users\admin\apache-maven-3.6.3\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\CrSSL\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_261-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_261
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.261-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\admin\keycloak-10.0.2
+	jboss.host.name = elmerchi-mouad
+	jboss.modules.dir = C:\Users\admin\keycloak-10.0.2\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = elmerchi-mouad
+	jboss.qualified.host.name = elmerchi-mouad
+	jboss.server.base.dir = C:\Users\admin\keycloak-10.0.2\standalone
+	jboss.server.config.dir = C:\Users\admin\keycloak-10.0.2\standalone\configuration
+	jboss.server.data.dir = C:\Users\admin\keycloak-10.0.2\standalone\data
+	jboss.server.deploy.dir = C:\Users\admin\keycloak-10.0.2\standalone\data\content
+	jboss.server.log.dir = C:\Users\admin\keycloak-10.0.2\standalone\log
+	jboss.server.name = elmerchi-mouad
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\admin\keycloak-10.0.2\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\admin\keycloak-10.0.2\standalone\configuration/logging.properties
+	module.path = C:\Users\admin\keycloak-10.0.2\modules
+	org.jboss.boot.log.file = C:\Users\admin\keycloak-10.0.2\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_261\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\admin\keycloak-10.0.2\jboss-modules.jar -mp C:\Users\admin\keycloak-10.0.2\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\admin\keycloak-10.0.2
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = FR
+	user.dir = C:\Users\admin\keycloak-10.0.2\bin
+	user.home = C:\Users\admin
+	user.language = fr
+	user.name = admin
+	user.script = 
+	user.timezone = Africa/Casablanca
+	user.variant = 
+2020-10-09 08:20:53,000 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\admin\keycloak-10.0.2\standalone\log\server.log -Dlogging.configuration=file:C:\Users\admin\keycloak-10.0.2\standalone\configuration/logging.properties 
+2020-10-09 08:20:56,579 INFO  [org.wildfly.security] (ServerService Thread Pool -- 20) ELY00001: WildFly Elytron version 1.11.4.Final
+2020-10-09 08:21:36,107 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-10-09 08:21:36,128 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-10-09 08:21:36,451 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-10-09 08:21:36,471 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.7.7.Final
+2020-10-09 08:21:36,484 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.7.7.Final
+2020-10-09 08:21:36,851 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 57) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-10-09 08:21:36,858 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-10-09 08:21:36,860 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 59) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-10-09 08:21:36,862 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 51) WFLYNAM0001: Activating Naming Subsystem
+2020-10-09 08:21:36,866 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 56) WFLYSEC0002: Activating Security Subsystem
+2020-10-09 08:21:36,880 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 60) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-10-09 08:21:36,885 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.20.Final)
+2020-10-09 08:21:36,886 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2020-10-09 08:21:36,893 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 61) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2020-10-09 08:21:36,927 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2020-10-09 08:21:36,928 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-10-09 08:21:44,240 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 40) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-10-09 08:21:44,253 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-10-09 08:21:44,253 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.1.0.Final starting
+2020-10-09 08:21:44,273 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 62) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2020-10-09 08:21:44,296 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 44) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2020-10-09 08:21:44,314 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2020-10-09 08:21:44,315 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2020-10-09 08:21:44,362 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0014: Creating file handler for path 'C:\Users\admin\keycloak-10.0.2/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-10-09 08:21:44,378 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2020-10-09 08:21:44,381 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.17.Final
+2020-10-09 08:21:44,383 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2020-10-09 08:21:44,569 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-10-09 08:21:44,774 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: EJB subsystem suspension complete
+2020-10-09 08:21:45,216 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2020-10-09 08:21:45,218 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-10-09 08:21:47,358 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 46) WFLYRS0016: RESTEasy version 3.11.2.Final
+2020-10-09 08:21:53,807 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2020-10-09 08:21:53,824 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\admin\keycloak-10.0.2\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2020-10-09 08:21:53,831 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\admin\keycloak-10.0.2\standalone\deployments
+2020-10-09 08:21:53,845 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "keycloak-server.war" (runtime-name: "keycloak-server.war")
+2020-10-09 08:21:54,787 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2020-10-09 08:21:57,466 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Infinity Minus ONE +2' 9.4.18.Final
+2020-10-09 08:21:58,117 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0002: Started authenticationSessions cache from keycloak container
+2020-10-09 08:21:58,117 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started realms cache from keycloak container
+2020-10-09 08:21:58,115 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0002: Started authorization cache from keycloak container
+2020-10-09 08:21:58,118 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0002: Started work cache from keycloak container
+2020-10-09 08:21:58,118 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Started actionTokens cache from keycloak container
+2020-10-09 08:21:58,117 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 68) WFLYCLINF0002: Started offlineSessions cache from keycloak container
+2020-10-09 08:21:58,119 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started keys cache from keycloak container
+2020-10-09 08:21:58,119 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0002: Started users cache from keycloak container
+2020-10-09 08:21:58,119 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) WFLYCLINF0002: Started loginFailures cache from keycloak container
+2020-10-09 08:21:58,120 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started offlineClientSessions cache from keycloak container
+2020-10-09 08:21:58,120 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0002: Started clientSessions cache from keycloak container
+2020-10-09 08:21:58,120 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0002: Started sessions cache from keycloak container
+2020-10-09 08:21:58,166 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started client-mappings cache from ejb container
+2020-10-09 08:22:00,563 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0273: Excluded subsystem webservices via jboss-deployment-structure.xml does not exist.
+2020-10-09 08:22:01,413 INFO  [org.keycloak.services] (ServerService Thread Pool -- 78) KC-SERVICES0001: Loading config from standalone.xml or domain.xml
+2020-10-09 08:22:02,953 INFO  [org.keycloak.url.DefaultHostnameProviderFactory] (ServerService Thread Pool -- 78) Frontend: <request>, Admin: <frontend>, Backend: <request>
+2020-10-09 08:22:03,045 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started realmRevisions cache from keycloak container
+2020-10-09 08:22:03,051 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started userRevisions cache from keycloak container
+2020-10-09 08:22:03,059 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0002: Started authorizationRevisions cache from keycloak container
+2020-10-09 08:22:03,061 INFO  [org.keycloak.connections.infinispan.DefaultInfinispanConnectionProviderFactory] (ServerService Thread Pool -- 78) Node name: elmerchi-mouad, Site name: null
+2020-10-09 08:22:15,389 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 78) HHH000204: Processing PersistenceUnitInfo [
+	name: keycloak-default
+	...]
+2020-10-09 08:22:15,483 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 78) HHH000412: Hibernate Core {5.3.15.Final}
+2020-10-09 08:22:15,486 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 78) HHH000206: hibernate.properties not found
+2020-10-09 08:22:15,962 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 78) HCANN000001: Hibernate Commons Annotations {5.0.5.Final}
+2020-10-09 08:22:16,149 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 78) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-10-09 08:22:16,157 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 78) HHH000431: Unable to determine H2 database version, certain features may not work
+2020-10-09 08:22:16,194 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 78) Envers integration enabled? : true
+2020-10-09 08:22:16,963 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 78) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2020-10-09 08:22:17,086 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 78) HV000001: Hibernate Validator 6.0.18.Final
+2020-10-09 08:22:18,270 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 78) HHH000397: Using ASTQueryTranslatorFactory
+2020-10-09 08:22:19,249 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,251 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakSecurityHeadersFilter from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,252 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002200: Adding class resource org.keycloak.services.resources.JsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,253 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002205: Adding provider class org.keycloak.services.error.KeycloakErrorHandler from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,253 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002200: Adding class resource org.keycloak.services.resources.ThemeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,253 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002205: Adding provider class org.keycloak.services.filters.KeycloakTransactionCommitter from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,254 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.admin.AdminRoot from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,254 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002210: Adding provider singleton org.keycloak.services.util.ObjectMapperResolver from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,254 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RobotsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,255 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.RealmsResource from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,255 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 78) RESTEASY002220: Adding singleton resource org.keycloak.services.resources.WelcomeResource from Application class org.keycloak.services.resources.KeycloakApplication
+2020-10-09 08:22:19,562 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 78) WFLYUT0021: Registered web context: '/auth' for server 'default-server'
+2020-10-09 08:22:19,911 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 63) WFLYSRV0010: Deployed "keycloak-server.war" (runtime-name : "keycloak-server.war")
+2020-10-09 08:22:20,585 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2020-10-09 08:22:20,589 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2020-10-09 08:22:20,590 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2020-10-09 08:22:20,591 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: Keycloak 10.0.2 (WildFly Core 11.1.1.Final) started in 118731ms - Started 591 of 889 services (606 services are lazy, passive or on-demand)
+2020-10-09 09:04:43,940 WARN  [org.keycloak.services] (default task-10) KC-SERVICES0091: Request is missing scope 'openid' so it's not treated as OIDC, but just pure OAuth2 request.
+2020-10-09 10:53:16,292 WARN  [org.keycloak.events] (default task-10) type=LOGIN_ERROR, realmId=Formation-ms, clientId=client-app-swagger-ui, userId=null, ipAddress=127.0.0.1, error=user_not_found, auth_method=openid-connect, auth_type=code, redirect_uri=http://localhost:9000/webjars/springfox-swagger-ui/oauth2-redirect.html, code_id=44f3b00f-b230-4466-843a-57c3609ba066, username=melmerchichi, authSessionParentId=44f3b00f-b230-4466-843a-57c3609ba066, authSessionTabId=CRkMhGkaJTM
+2020-10-09 11:40:26,229 WARN  [org.keycloak.events] (default task-10) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2020-10-09 12:21:52,913 WARN  [org.keycloak.protocol.oidc.utils.OAuth2CodeParser] (default task-13) Code '0d2cbbef-2f8b-41c2-8b07-9f2d2341dacd' already used for userSession '8cdc222c-f8f9-4631-a756-c4c855d5fcb7' and client '12d7b934-feb8-47b4-8681-a98776a2085e'.
+2020-10-09 12:21:54,814 WARN  [org.keycloak.events] (default task-13) type=CODE_TO_TOKEN_ERROR, realmId=Formation-ms, clientId=swagger-ui, userId=null, ipAddress=127.0.0.1, error=invalid_code, grant_type=authorization_code, code_id=8cdc222c-f8f9-4631-a756-c4c855d5fcb7, client_auth_method=client-secret
+2020-10-09 12:29:23,563 WARN  [org.keycloak.events] (default task-13) type=REFRESH_TOKEN_ERROR, realmId=master, clientId=security-admin-console, userId=null, ipAddress=127.0.0.1, error=invalid_token, grant_type=refresh_token, client_auth_method=client-secret
+2020-10-09 15:24:36,031 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012117: TransactionReaper::check timeout for TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 in state  RUN
+2020-10-09 15:25:01,393 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012117: TransactionReaper::check timeout for TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 in state  SCHEDULE_CANCEL
+2020-10-09 15:25:18,202 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012117: TransactionReaper::check timeout for TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 in state  SCHEDULE_CANCEL
+2020-10-09 15:25:18,812 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012117: TransactionReaper::check timeout for TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 in state  SCHEDULE_CANCEL
+2020-10-09 15:25:22,863 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper Worker 0) ARJUNA012095: Abort of action id 0:ffffc0a8250f:3046bce6:5f800f88:4c05 invoked while multiple threads active within it.
+2020-10-09 15:25:24,675 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012378: ReaperElement appears to be wedged: java.util.Hashtable.contains(Hashtable.java:300)
+com.arjuna.ats.arjuna.coordinator.BasicAction.checkChildren(BasicAction.java:3392)
+com.arjuna.ats.arjuna.coordinator.BasicAction.Abort(BasicAction.java:1667)
+com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.cancel(TwoPhaseCoordinator.java:124)
+com.arjuna.ats.arjuna.AtomicAction.cancel(AtomicAction.java:215)
+com.arjuna.ats.arjuna.coordinator.TransactionReaper.doCancellations(TransactionReaper.java:381)
+com.arjuna.ats.internal.arjuna.coordinator.ReaperWorkerThread.run(ReaperWorkerThread.java:78)
+
+2020-10-09 15:25:28,375 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012117: TransactionReaper::check timeout for TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 in state  CANCEL_INTERRUPTED
+2020-10-09 15:25:35,131 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012120: TransactionReaper::check worker Thread[Transaction Reaper Worker 0,5,main] not responding to interrupt when cancelling TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 -- worker marked as zombie and TX scheduled for mark-as-rollback
+2020-10-09 15:25:35,206 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper Worker 0) ARJUNA012381: Action id 0:ffffc0a8250f:3046bce6:5f800f88:4c05 completed with multiple threads - thread default task-13 was in progress with org.keycloak.authentication.authenticators.directgrant.ValidatePassword.authenticate(ValidatePassword.java:46)
+org.keycloak.authentication.DefaultAuthenticationFlow.processSingleFlowExecutionModel(DefaultAuthenticationFlow.java:438)
+org.keycloak.authentication.DefaultAuthenticationFlow.processFlow(DefaultAuthenticationFlow.java:247)
+org.keycloak.authentication.AuthenticationProcessor.authenticateOnly(AuthenticationProcessor.java:976)
+org.keycloak.protocol.oidc.endpoints.TokenEndpoint.resourceOwnerPasswordCredentialsGrant(TokenEndpoint.java:592)
+org.keycloak.protocol.oidc.endpoints.TokenEndpoint.processGrantRequest(TokenEndpoint.java:191)
+sun.reflect.GeneratedMethodAccessor764.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:138)
+org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:535)
+org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:424)
+org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:385)
+org.jboss.resteasy.core.ResourceMethodInvoker$$Lambda$937/1986955805.get(Unknown Source)
+org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:356)
+org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:387)
+org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:356)
+org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:150)
+org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:110)
+org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:141)
+org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:104)
+org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:440)
+org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:229)
+org.jboss.resteasy.core.SynchronousDispatcher$$Lambda$935/1363108083.run(Unknown Source)
+org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:135)
+org.jboss.resteasy.core.SynchronousDispatcher$$Lambda$936/396030041.get(Unknown Source)
+org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:356)
+org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:138)
+org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:215)
+org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+org.keycloak.services.filters.KeycloakSessionServletFilter.doFilter(KeycloakSessionServletFilter.java:91)
+io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction$$Lambda$735/1878331493.call(Unknown Source)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction$$Lambda$736/396986924.call(Unknown Source)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction$$Lambda$736/396986924.call(Unknown Source)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction$$Lambda$736/396986924.call(Unknown Source)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction$$Lambda$736/396986924.call(Unknown Source)
+io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+io.undertow.server.Connectors.executeRootHandler(Connectors.java:370)
+io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+java.lang.Thread.run(Thread.java:748)
+
+2020-10-09 15:25:38,252 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper Worker 0) ARJUNA012108: CheckedAction::check - atomic action 0:ffffc0a8250f:3046bce6:5f800f88:4c05 aborting with 1 threads active!
+2020-10-09 15:25:40,799 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper) ARJUNA012110: TransactionReaper::check successfuly marked TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 as rollback only
+2020-10-09 15:25:58,829 WARN  [org.hibernate.resource.transaction.backend.jta.internal.synchronization.SynchronizationCallbackCoordinatorTrackingImpl] (Transaction Reaper Worker 0) HHH000451: Transaction afterCompletion called by a background thread; delaying afterCompletion processing until the original thread can handle it. [status=4]
+2020-10-09 15:26:00,112 WARN  [com.arjuna.ats.arjuna] (Transaction Reaper Worker 0) ARJUNA012113: TransactionReaper::doCancellations worker Thread[Transaction Reaper Worker 0,5,main] missed interrupt when cancelling TX 0:ffffc0a8250f:3046bce6:5f800f88:4c05 -- exiting as zombie (zombie count decremented to 0)
+2020-10-09 15:26:05,219 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (default task-13) IJ000609: Attempt to return connection twice: org.jboss.jca.core.connectionmanager.listener.TxConnectionListener@6b2b60bb[state=NORMAL managed connection=org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5d70f449 connection handles=0 lastReturned=1602253564863 lastValidated=1602240075802 lastCheckedOut=1602253246813 trackByTx=false pool=org.jboss.jca.core.connectionmanager.pool.strategy.OnePool@7718578d mcp=SemaphoreConcurrentLinkedQueueManagedConnectionPool@35d509ec[pool=KeycloakDS] xaResource=LocalXAResourceImpl@17368aa2[connectionListener=6b2b60bb connectionManager=7a00383e warned=false currentXid=null productName=H2 productVersion=1.4.197 (2018-03-18) jndiName=java:jboss/datasources/KeycloakDS] txSync=null]: java.lang.Throwable: STACKTRACE
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.returnConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:725)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreConcurrentLinkedDequeManagedConnectionPool.returnConnection(SemaphoreConcurrentLinkedDequeManagedConnectionPool.java:614)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.returnConnection(AbstractPool.java:847)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.returnManagedConnection(AbstractConnectionManager.java:725)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.managedConnectionDisconnected(AbstractConnectionManager.java:1113)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.disconnectManagedConnection(AbstractConnectionManager.java:1069)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.reconnectManagedConnection(AbstractConnectionManager.java:1046)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:792)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2082)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:949)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:351)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:321)
+	at org.hibernate.loader.Loader.loadCollection(Loader.java:2501)
+	at org.hibernate.loader.collection.plan.LegacyBatchingCollectionInitializerBuilder$LegacyBatchingCollectionInitializer.initialize(LegacyBatchingCollectionInitializerBuilder.java:88)
+	at org.hibernate.persister.collection.AbstractCollectionPersister.initialize(AbstractCollectionPersister.java:692)
+	at org.hibernate.event.internal.DefaultInitializeCollectionEventListener.onInitializeCollection(DefaultInitializeCollectionEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.initializeCollection(SessionImpl.java:2266)
+	at org.hibernate.collection.internal.AbstractPersistentCollection$4.doWork(AbstractPersistentCollection.java:585)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:263)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:581)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:148)
+	at org.hibernate.collection.internal.PersistentBag.iterator(PersistentBag.java:390)
+	at org.keycloak.models.jpa.UserAdapter.getAttributes(UserAdapter.java:211)
+	at org.keycloak.models.cache.infinispan.entities.CachedUser.lambda$new$0(CachedUser.java:70)
+	at org.keycloak.models.cache.infinispan.DefaultLazyLoader.get(DefaultLazyLoader.java:43)
+	at org.keycloak.models.cache.infinispan.entities.CachedUser.getAttributes(CachedUser.java:108)
+	at org.keycloak.models.cache.infinispan.UserAdapter.getFirstAttribute(UserAdapter.java:159)
+	at org.keycloak.authentication.requiredactions.UpdateUserLocaleAction.evaluateTriggers(UpdateUserLocaleAction.java:27)
+	at org.keycloak.services.managers.AuthenticationManager.evaluateRequiredActionTriggers(AuthenticationManager.java:1214)
+	at org.keycloak.authentication.AuthenticationProcessor.evaluateRequiredActionTriggers(AuthenticationProcessor.java:1044)
+	at org.keycloak.protocol.oidc.endpoints.TokenEndpoint.resourceOwnerPasswordCredentialsGrant(TokenEndpoint.java:597)
+	at org.keycloak.protocol.oidc.endpoints.TokenEndpoint.processGrantRequest(TokenEndpoint.java:191)
+	at sun.reflect.GeneratedMethodAccessor764.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:138)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:535)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:424)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:385)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:356)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:387)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:356)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:150)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:110)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:104)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:440)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:229)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:135)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:356)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:138)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:215)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.keycloak.services.filters.KeycloakSessionServletFilter.doFilter(KeycloakSessionServletFilter.java:91)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:370)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020-10-09 15:26:21,418 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-13) SQL Error: 0, SQLState: null
+2020-10-09 15:26:22,899 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-13) javax.resource.ResourceException: IJ000457: Unchecked throwable in managedConnectionReconnected() cl=org.jboss.jca.core.connectionmanager.listener.TxConnectionListener@6b2b60bb[state=DESTROYED managed connection=org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5d70f449 connection handles=0 lastReturned=1602253564863 lastValidated=1602240075802 lastCheckedOut=1602253246813 trackByTx=false pool=org.jboss.jca.core.connectionmanager.pool.strategy.OnePool@7718578d mcp=SemaphoreConcurrentLinkedQueueManagedConnectionPool@35d509ec[pool=KeycloakDS] xaResource=LocalXAResourceImpl@17368aa2[connectionListener=6b2b60bb connectionManager=7a00383e warned=false currentXid=null productName=H2 productVersion=1.4.197 (2018-03-18) jndiName=java:jboss/datasources/KeycloakDS] txSync=null]
+2020-10-09 15:26:33,317 ERROR [org.keycloak.services.error.KeycloakErrorHandler] (default task-13) Uncaught server error: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:109)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:136)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.connection(StatementPreparerImpl.java:50)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:149)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:176)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:151)
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:2082)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2012)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1990)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:949)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:351)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:321)
+	at org.hibernate.loader.Loader.loadCollection(Loader.java:2501)
+	at org.hibernate.loader.collection.plan.LegacyBatchingCollectionInitializerBuilder$LegacyBatchingCollectionInitializer.initialize(LegacyBatchingCollectionInitializerBuilder.java:88)
+	at org.hibernate.persister.collection.AbstractCollectionPersister.initialize(AbstractCollectionPersister.java:692)
+	at org.hibernate.event.internal.DefaultInitializeCollectionEventListener.onInitializeCollection(DefaultInitializeCollectionEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.initializeCollection(SessionImpl.java:2266)
+	at org.hibernate.collection.internal.AbstractPersistentCollection$4.doWork(AbstractPersistentCollection.java:585)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:263)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:581)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:148)
+	at org.hibernate.collection.internal.PersistentBag.iterator(PersistentBag.java:390)
+	at org.keycloak.models.jpa.UserAdapter.getAttributes(UserAdapter.java:211)
+	at org.keycloak.models.cache.infinispan.entities.CachedUser.lambda$new$0(CachedUser.java:70)
+	at org.keycloak.models.cache.infinispan.DefaultLazyLoader.get(DefaultLazyLoader.java:43)
+	at org.keycloak.models.cache.infinispan.entities.CachedUser.getAttributes(CachedUser.java:108)
+	at org.keycloak.models.cache.infinispan.UserAdapter.getFirstAttribute(UserAdapter.java:159)
+	at org.keycloak.authentication.requiredactions.UpdateUserLocaleAction.evaluateTriggers(UpdateUserLocaleAction.java:27)
+	at org.keycloak.services.managers.AuthenticationManager.evaluateRequiredActionTriggers(AuthenticationManager.java:1214)
+	at org.keycloak.authentication.AuthenticationProcessor.evaluateRequiredActionTriggers(AuthenticationProcessor.java:1044)
+	at org.keycloak.protocol.oidc.endpoints.TokenEndpoint.resourceOwnerPasswordCredentialsGrant(TokenEndpoint.java:597)
+	at org.keycloak.protocol.oidc.endpoints.TokenEndpoint.processGrantRequest(TokenEndpoint.java:191)
+	at sun.reflect.GeneratedMethodAccessor764.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:138)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:535)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:424)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:385)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:356)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:387)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:356)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:150)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:110)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invokeOnTargetObject(ResourceLocatorInvoker.java:141)
+	at org.jboss.resteasy.core.ResourceLocatorInvoker.invoke(ResourceLocatorInvoker.java:104)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:440)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:229)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:135)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:356)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:138)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:215)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.keycloak.services.filters.KeycloakSessionServletFilter.doFilter(KeycloakSessionServletFilter.java:91)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1541)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:370)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1982)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000457: Unchecked throwable in managedConnectionReconnected() cl=org.jboss.jca.core.connectionmanager.listener.TxConnectionListener@6b2b60bb[state=DESTROYED managed connection=org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5d70f449 connection handles=0 lastReturned=1602253564863 lastValidated=1602240075802 lastCheckedOut=1602253246813 trackByTx=false pool=org.jboss.jca.core.connectionmanager.pool.strategy.OnePool@7718578d mcp=SemaphoreConcurrentLinkedQueueManagedConnectionPool@35d509ec[pool=KeycloakDS] xaResource=LocalXAResourceImpl@17368aa2[connectionListener=6b2b60bb connectionManager=7a00383e warned=false currentXid=null productName=H2 productVersion=1.4.197 (2018-03-18) jndiName=java:jboss/datasources/KeycloakDS] txSync=null]
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:159)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:64)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:35)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:106)
+	... 102 more
+Caused by: javax.resource.ResourceException: IJ000457: Unchecked throwable in managedConnectionReconnected() cl=org.jboss.jca.core.connectionmanager.listener.TxConnectionListener@6b2b60bb[state=DESTROYED managed connection=org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@5d70f449 connection handles=0 lastReturned=1602253564863 lastValidated=1602240075802 lastCheckedOut=1602253246813 trackByTx=false pool=org.jboss.jca.core.connectionmanager.pool.strategy.OnePool@7718578d mcp=SemaphoreConcurrentLinkedQueueManagedConnectionPool@35d509ec[pool=KeycloakDS] xaResource=LocalXAResourceImpl@17368aa2[connectionListener=6b2b60bb connectionManager=7a00383e warned=false currentXid=null productName=H2 productVersion=1.4.197 (2018-03-18) jndiName=java:jboss/datasources/KeycloakDS] txSync=null]
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.reconnectManagedConnection(AbstractConnectionManager.java:1055)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:792)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:151)
+	... 106 more
+Caused by: javax.resource.ResourceException: IJ000461: Could not enlist in transaction on entering meta-aware object
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.managedConnectionReconnected(TxConnectionManagerImpl.java:571)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.reconnectManagedConnection(AbstractConnectionManager.java:977)
+	... 108 more
+Caused by: java.lang.IllegalStateException: Transaction Local transaction (delegate=TransactionImple < ac, BasicAction: 0:ffffc0a8250f:3046bce6:5f800f88:4c05 status: ActionStatus.ABORTED >, owner=Local transaction context for provider JBoss JTA transaction provider) is not active STATUS_ROLLEDBACK
+	at org.jboss.jca.core.connectionmanager.listener.TxConnectionListener.enlist(TxConnectionListener.java:296)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.managedConnectionReconnected(TxConnectionManagerImpl.java:564)
+	... 109 more
+
+2020-10-09 15:26:37,710 WARN  [com.arjuna.ats.arjuna] (default task-13) ARJUNA012077: Abort called on already aborted atomic action 0:ffffc0a8250f:3046bce6:5f800f88:4c05
