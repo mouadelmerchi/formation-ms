@@ -1,9 +1,7 @@
 server:
-  port: 9002
+  port: 9001
   
 spring:
-  application:
-    name: sales-service
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     database: MYSQL
@@ -19,10 +17,23 @@ spring:
     sampler:
       probability: 1
 
+keycloak:
+  realm: formation-ms
+  auth-server-url: http://localhost:8080/auth
+  resource: sales-app
+  credentials:
+    secret: 287e769d-abee-45e1-b5db-190be79f08dc
+  principal-attribute: preferred_username
+  bearer-only: true
+
+swagger-ui:
+  client: sales-app-swagger-ui
+  secret: aec4fb5a-ff66-46cc-afda-1c74de9405cc
+
 eureka:
   client:
     serviceUrl: 
-      defaultZone: http://localhost:8761/eureka/  
+      defaultZone: http://localhost:8761/eureka/
 ---
 spring:
   profiles: test
@@ -35,5 +46,3 @@ spring:
         database-platform: org.hibernate.dialect.H2Dialect
         hibernate :
           ddl-auto: create
-
-    

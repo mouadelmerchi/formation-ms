@@ -2,8 +2,6 @@ server:
   port: 9000
   
 spring:
-  application:
-    name: client-service
   main:
      allow-bean-definition-overriding: true
   jpa:
@@ -31,7 +29,7 @@ keycloak:
   bearer-only: true
 
 swagger-ui:
-  client: swagger-ui
+  client: client-app-swagger-ui
   secret: 38cc945e-dc12-4e96-af5b-8569d6dc0125
   
 eureka:
@@ -54,5 +52,3 @@ spring:
         database-platform: org.hibernate.dialect.H2Dialect
         hibernate :
           ddl-auto: create
-
-    
